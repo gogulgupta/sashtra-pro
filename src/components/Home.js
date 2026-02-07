@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
 
-const TOKEN = "Fy9DrMSPlw60Kq42yxmO-5CBU0iqRfKN";
+const TOKEN = "5tmYwcYrAFrmrM0G4zOmjpcUifQjyRuf";
 const VPIN = { RELAY: "V1", BUZZER: "V2", STEP: "V4", TEMP: "V6" };
 
 export default function Home({ user }) {
@@ -60,7 +60,7 @@ export default function Home({ user }) {
   return (
     <>
       <div className="header">
-        <h2>Hybrid Smart Shoes</h2>
+        <h2>Sastraved shoes</h2>
         <div className="user-name">
           {user && "Welcome, " + (user.displayName || user.email)}
         </div>
